@@ -1,0 +1,41 @@
+.hero {
+  background-color: #2e2f42;
+  padding: 188px 0px;
+}
+
+.hero-container {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-title {
+  width: 496px;
+  flex-wrap: wrap;
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+  line-height: 1.07143;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding: 16px 32px;
+  border: none;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
