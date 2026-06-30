@@ -29,6 +29,10 @@
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   width: 264px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-card-content-container {
@@ -53,4 +57,34 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-top: 8px;
+}
+
+.team-card-social {
+  padding: 8px 16px 32px 16px;
+}
+
+.team-card-social-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-card-social-item {
+}
+
+.team-card-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4d5ae5;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  color: #f4f4fd;
+}
+
+.team-card-social-link:hover,
+.team-card-social-link:focus {
+  background: #404bbf;
 }
