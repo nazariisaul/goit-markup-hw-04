@@ -70,6 +70,7 @@
   align-items: center;
   background: #4d5ae5;
   border-radius: 40px;
+  color: #f4f4fd;
   width: 40px;
   height: 40px;
   transition: background-color 250ms ease-in-out;
@@ -81,5 +82,5 @@
 }
 
 .footer-card-social-list svg {
-  color: #f4f4fd;
+  fill: currentColor;
 }

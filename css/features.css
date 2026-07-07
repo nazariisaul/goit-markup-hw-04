@@ -8,6 +8,9 @@
   list-style-type: none;
   flex-basis: calc(100% - 72px) / 4;
 }
+.features-item {
+  flex-basis: calc((100% - 72px) / 4);
+}
 
 .features-list-title {
   font-weight: 500;
@@ -28,13 +31,12 @@
 }
 
 .features-decoration {
-  display: inline;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 112px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background-color: #f4f4fd;
-  padding-top: 24px;
-  padding-bottom: 24px;
   margin-bottom: 8px;
 }
