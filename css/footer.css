@@ -56,7 +56,7 @@
 
 .footer-card-social-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   justify-content: center;
   align-items: center;
 }
@@ -72,11 +72,14 @@
   border-radius: 40px;
   width: 40px;
   height: 40px;
-  color: #f4f4fd;
   transition: background-color 250ms ease-in-out;
 }
 
 .footer-card-social-link:hover,
 .footer-card-social-link:focus {
   background-color: #31d0aa;
+}
+
+.footer-card-social-list svg {
+  color: #f4f4fd;
 }
