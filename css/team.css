@@ -87,6 +87,6 @@
   background-color: #404bbf;
 }
 
-.team-card-social-list svg {
+.team-card-social-list .social-svg {
   fill: currentColor;
 }
