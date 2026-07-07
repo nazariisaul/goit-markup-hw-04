@@ -54,6 +54,26 @@
   color: #404bbf;
 }
 
+.features-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav-item.features-item::before {
+  content: '';
+}
+/*  */
+.nav-item.features-item:active::after {
+  margin-top: 19px;
+  content: '';
+  display: inline-block;
+  border-radius: 2px;
+  width: 65px;
+  height: 4px;
+  background-color: #404bbf;
+}
+
 /* Address styles */
 
 .header-address {

@@ -5,9 +5,14 @@
 
 .footer-container {
   display: flex;
+}
+
+/* Logo and Description */
+.footer-logo-descr {
+  display: flex;
   flex-direction: column;
   gap: 16px;
-  justify-content: flex-start;
+  margin-right: 120px;
 }
 
 .footer-text {
@@ -32,4 +37,45 @@
 
 .logo-web {
   color: #4d5ae5;
+}
+
+/* Socials */
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-card-social-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-card-social-item {
+}
+
+.footer-card-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4d5ae5;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  color: #f4f4fd;
+}
+
+.footer-card-social-link:hover,
+.footer-card-social-link:focus {
+  background: #404bbf;
 }
