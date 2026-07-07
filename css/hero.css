@@ -43,6 +43,7 @@
   border-radius: 4px;
   padding: 16px 32px;
   border: none;
+  transition: background-color 250ms ease-in-out;
 }
 
 .hero-button:hover,

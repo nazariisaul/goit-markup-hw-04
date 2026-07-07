@@ -82,9 +82,10 @@
   width: 40px;
   height: 40px;
   color: #f4f4fd;
+  transition: background-color 250ms ease-in-out;
 }
 
 .team-card-social-link:hover,
 .team-card-social-link:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
